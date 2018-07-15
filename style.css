@@ -1,0 +1,79 @@
+body {
+  background-color: #BAFFEB;
+}
+
+#page-header {
+  text-transform: uppercase;
+  font-family: 'Shrikhand', cursive;
+  margin: auto;
+  width: 60%;
+  max-width: 700px;
+  color: #10135;
+}
+
+th {
+  width: 20%;
+}
+
+#zodiac-table {
+  width: 90%;
+  height: 300px;
+  top: 45%;
+  left: 50%;
+  margin-left: -45%;
+  margin-top: -150px;
+  position: fixed;
+}
+
+.arrows {
+  width: 20%;
+}
+
+#right-arrow {
+  text-align: left;
+}
+
+#left-arrow {
+  text-align: right;
+}
+
+.pictures {
+  width: 70%;
+  margin-top: 24px;
+}
+
+.pictures-tab {
+  text-align: center;
+}
+
+#zodiac-picture {
+  width: 100%;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 100%;
+}
+
+.words {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+#submit-button {
+  border-style: hidden;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  display: block;
+  margin: auto;
+  top: 78%;
+  left: 50%;
+  width: 14%;
+  height: 7%;
+  margin-top: -3.5%;
+  margin-left: -7%;
+  position: fixed;
+  background-color: #010135;
+  font-size: 200%;
+  height: 80px;
+}
