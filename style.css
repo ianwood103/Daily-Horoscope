@@ -5,10 +5,12 @@ body {
 #page-header {
   text-transform: uppercase;
   font-family: 'Shrikhand', cursive;
-  margin: auto;
   width: 60%;
-  max-width: 700px;
   color: #10135;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -30%;
 }
 
 th {
@@ -76,4 +78,50 @@ th {
   background-color: #010135;
   font-size: 200%;
   height: 80px;
+}
+
+#submit-button:hover {
+  -webkit-animation: clicker 0.5s, shadow 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes clicker {
+  0% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateX(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+@-webkit-keyframes shadow {
+  0% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 10px 10px red;
+  }
+}
+
+/*
+@keyframes clicker {
+  0% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateX(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 10px 10px red;
+  }
 }
