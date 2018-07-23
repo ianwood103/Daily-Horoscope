@@ -1,5 +1,7 @@
 body {
   background-color: #BAFFEB;
+  margin: 0;
+  height: 100%;
 }
 
 #page-header {
@@ -8,7 +10,7 @@ body {
   width: 60%;
   color: #10135;
   position: absolute;
-  top: 10%;
+  top: 8%;
   left: 50%;
   margin-left: -30%;
 }
@@ -20,6 +22,8 @@ th {
 #zodiac-table {
   width: 90%;
   height: 300px;
+  max-height: 20%;
+  max-width: 100%;
   top: 45%;
   left: 50%;
   margin-left: -45%;
@@ -68,7 +72,7 @@ th {
   text-align: center;
   display: block;
   margin: auto;
-  top: 78%;
+  top: 82%;
   left: 50%;
   width: 14%;
   height: 7%;
@@ -133,8 +137,8 @@ th {
     margin-left: -7%;
   }
   100% {
-    margin-top: -4.5%;
-    margin-left: -8%;
+    margin-top: -4.0%;
+    margin-left: -7.5%;
   }
 }
 
@@ -158,8 +162,8 @@ th {
 
 @keyframes unclicker {
   0% {
-    margin-left: -8%;
-    margin-top: -4.5%
+    margin-left: -7.5%;
+    margin-top: -4.0%
   }
   100% {
     margin-left: -7%;

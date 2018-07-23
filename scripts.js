@@ -1,16 +1,16 @@
 
-var aquarius= 'aquarius.png';
-var aries = 'aries.png';
-var capricorn = 'capricornus.png';
-var cancer = 'cancer.png';
-var gemini = 'gemini.png';
-var leo = 'leo.png';
-var libra = 'libra.png';
-var pisces = 'pisces.png';
-var sagittarius = 'sagittarius.png';
-var scorpio = 'scorpio.png';
-var taurus = 'taurus.png';
-var virgo = 'virgo.png';
+var aquarius= 'img/aquarius.png';
+var aries = 'img/aries.png';
+var capricorn = 'img/capricornus.png';
+var cancer = 'img/cancer.png';
+var gemini = 'img/gemini.png';
+var leo = 'img/leo.png';
+var libra = 'img/libra.png';
+var pisces = 'img/pisces.png';
+var sagittarius = 'img/sagittarius.png';
+var scorpio = 'img/scorpio.png';
+var taurus = 'img/taurus.png';
+var virgo = 'img/virgo.png';
 
 var zArray = [
   aquarius,
