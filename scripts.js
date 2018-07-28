@@ -101,6 +101,4 @@ function horoscopeClick() {
 
 $(document).ready(function() {
   zodiacSwitch();
-
-  $('#submit-button').hide().delay(300).fadeIn(500);
 });
