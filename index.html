@@ -8,49 +8,64 @@
   crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Links below -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+
   </head>
 
-  <body>
-    <h1 align="center" id="page-header"> your daily horoscope </h1>
-    <br> <br>
+  <body> <br> <br>
+    <div class="container-fluid">
+      <div class="zodiac-wrapper">
+        <h1 id="page-header"> your daily horoscope </h1>
+        <br> <br>
+      </div>
 
-    <div class="zodiac-wrapper">
-      <table id="zodiac-table">
+      <div class="horoscope-message">
+        <h1 id="horoscope-header"> </h1> <br> <br>
+        <p id="horoscope"> </p>
+      </div>
 
-        <tr>
-          <th class="pictures-tab" id="left">
-            <img src="" id="left-zodiac-picture" class="pictures">
-            <p id="left-zodiac" class="words"></p>
-          </th>
+      <div class="zodiac-wrapper">
+        <table id="zodiac-table">
 
-          <th id="left-arrow">
-            <img src="img/left-arrow.png" class="arrows" id="left-arrow-img" onclick="leftZodiac();">
-              <img src="img/left-arrow-red.png" class="arrows bottom-arrows" id="bottom-left-arrow">
-          </th>
+          <tr>
+            <th class="pictures-tab" id="left">
+              <img src="" id="left-zodiac-picture" class="pictures">
+              <p id="left-zodiac" class="words"></p>
+            </th>
 
-          <th class="pictures-tab">
-            <img src="" id="zodiac-picture" class="pictures">
-            <p id="primary-zodiac" class="words"></p>
-          </th>
+            <th id="left-arrow">
+              <img src="img/left-arrow.png" class="arrows" id="left-arrow-img" onclick="leftZodiac();">
+                <img src="img/left-arrow-red.png" class="arrows bottom-arrows" id="bottom-left-arrow">
+            </th>
 
-          <th id="right-arrow">
-            <img src="img/right-arrow-red.png" class="arrows bottom-arrows" id="bottom-right-arrow">
-            <img src="img/right-arrow.png" class="arrows" id="right-arrow-img" onclick="rightZodiac();">
-          </th>
+            <th class="pictures-tab">
+              <img src="" id="zodiac-picture" class="pictures">
+              <p id="primary-zodiac" class="words"></p>
+            </th>
 
-          <th class="pictures-tab" id="right">
-            <img src="" id="right-zodiac-picture" class="pictures">
-            <p id="right-zodiac" class="words"></p>
-          </th>
-        </tr>
+            <th id="right-arrow">
+              <img src="img/right-arrow-red.png" class="arrows bottom-arrows" id="bottom-right-arrow">
+              <img src="img/right-arrow.png" class="arrows" id="right-arrow-img" onclick="rightZodiac();">
+            </th>
 
-      </table>
+            <th class="pictures-tab" id="right">
+              <img src="" id="right-zodiac-picture" class="pictures">
+              <p id="right-zodiac" class="words"></p>
+            </th>
+          </tr>
+
+        </table>
+      </div>
+
+      <div class="button-wrapper">
+        <input type="button" value="Submit" id='submit-button' class="buttons btn" onclick="horoscopeClick();"></input>
+      </div>
     </div>
-
-    <input type="button" value="Submit" id='submit-button' class="buttons btn" onclick="horoscopeClick();"></input>
   </body>
 
 </html>
