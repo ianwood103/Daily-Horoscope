@@ -135,7 +135,7 @@ $(document).ready(function() {
   $('.horoscope-message').hide();
   $('#horoscope-header', '#horoscope').hide();
 
-  $.getJSON("https://s3.amazonaws.com/scrapy.seattle/Folder1/data.json", function(json) {
+  $.getJSON("https://s3.amazonaws.com/scrapy.seattle/data.json", function(json) {
     horoscope = json;
     console.log(horoscope);
   });
